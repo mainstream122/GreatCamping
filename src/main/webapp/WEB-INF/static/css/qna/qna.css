@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#qnaWrapper {
+	margin: 70px auto;
+	width: 1200px;
+	min-height: 500px;
+	font-size: 0.8em;
+}
+
+.qnaSide {
+    width: 318px;
+    float: left;
+    border: 1px solid blue;
+}
+
+.qnaBody {
+	float: right;
+    width: 805px;
+}
+
+.qnaTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.qnaTable tr th {
+    border-top: 2px solid #b43f0b;
+    font-family: dotum;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    color: #b43f0b;
+    font-size: 15px;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+
+.qnaTable tr td {
+    height: 17px;
+    padding: 14px 8px;
+    text-align: center;
+    border-bottom: 1px solid #c6c6c6;
+    border-width: 0 0 1px 0;
+    font-family: dotum;
+}
+
+.qnaTable tr:hover {
+	background: #ebebeb;
+}
+
+.qnaTable tr td:nth-child(2) {
+	min-height: 48px;
+    padding: 14px 8px;
+    text-align: left;
+    border-bottom: 1px solid #c6c6c6;
+    border-width: 0 0 1px 0;
+    font-family: dotum;
+}
+
+.ellipsis.title {
+	width: 390px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ellipsis.title a {
+	text-decoration: none;
+	color: #444;
+}
+
+.ellipsis.title a:hover {
+	text-decoration: underline;
+}
+
+.ellipsis.writer {
+	width: 96px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.secretImg {
+	position: relative;
+	margin-left: 5px;
+	top: 2px;
+}
